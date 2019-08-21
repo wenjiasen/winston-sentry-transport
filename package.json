@@ -1,6 +1,6 @@
 {
   "name": "@wenjs/winston-sentry-transport",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A Sentry transport for Winston",
   "main": "lib/index.js",
   "dependencies": {
