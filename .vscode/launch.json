@@ -12,7 +12,7 @@
       "env": {
         "NODE_ENV": "dev"
       },
-      "args": ["${workspaceFolder}/test/koa.ts"]
+      "args": ["${workspaceFolder}/test/index.spec.ts"]
     }
   ]
 }
