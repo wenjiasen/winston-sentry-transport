@@ -1,8 +1,8 @@
 {
-  "name": "winston-sentry-transport",
-  "version": "1.0.0",
+  "name": "@wenjs/winston-sentry-transport",
+  "version": "0.0.1",
   "description": "A Sentry transport for Winston",
-  "main": "index.js",
+  "main": "lib/index.js",
   "directories": {
     "lib": "lib"
   },
@@ -24,7 +24,8 @@
   "scripts": {
     "build": "npm run clean && tsc",
     "clean": "rm -rf ./lib/*",
-    "test": "mocha -r ts-node/register test/**/*.spec.ts"
+    "test": "mocha -r ts-node/register test/**/*.spec.ts",
+    "postversion": "git push --follow-tags"
   },
   "repository": {
     "type": "git",
