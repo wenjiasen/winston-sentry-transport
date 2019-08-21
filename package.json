@@ -3,9 +3,6 @@
   "version": "0.0.1",
   "description": "A Sentry transport for Winston",
   "main": "lib/index.js",
-  "directories": {
-    "lib": "lib"
-  },
   "dependencies": {
     "@sentry/node": "^5.5.0",
     "winston-transport": "^4.3.0"
