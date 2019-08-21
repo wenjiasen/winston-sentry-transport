@@ -1,7 +1,7 @@
 import winstonTransport from 'winston-transport';
 import * as sentry from '@sentry/node';
 
-interface ISentryTransportOption extends winstonTransport.TransportStreamOptions {
+export interface ISentryTransportOption extends winstonTransport.TransportStreamOptions {
   sentryConfig: sentry.NodeOptions;
 }
 
